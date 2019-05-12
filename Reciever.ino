@@ -1,4 +1,4 @@
- * WIRELESS NOTICE BOARD SYSTEM
+ /* WIRELESS NOTICE BOARD SYSTEM
  * Reciever
  */
 
@@ -28,7 +28,7 @@ else
 pos=0;
 lcd.clear();
 }
-for (i = 1; i < buflen; i++)
+for (i = 0; i < buflen; i++)
 {
 lcd.print((char)buf[i]);
 pos++;
